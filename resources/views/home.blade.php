@@ -13,13 +13,13 @@
     {{HTML::style('css/style.css')}}
 
 
-    <title>Wedding Time</title>
+    <title>Kundangan Yuk</title>
   </head>
   <body>
     {{-- navbar --}}
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Wedding Time</a>
+            <a class="navbar-brand" href="#">Kundangan Yuk</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,13 +45,57 @@
     {{-- jumbotron end--}}
 
     {{-- content --}}
+    <section class="template">
+        <div class="container">
+            <div class="row justify-content-center txt-template">
+                    <h1>Which templates you love? <span>pick yours.</span></h1>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <img class="img-fluid mb-4 rounded img-template" src="../image/exampletemplate1.jpg" alt="">
+                    <h2 class="font-weight-light mb-0 fs-0 fs-md-2">
+                        <span class="">
+                            <span>the aesthetic of</span>
+                        </span>
+                        <span class="d-block">
+                            <span>sparrow events</span>
+                        </span>
+                        <span class="overflow-hidden d-block">
+                            <span>is one of</span>
+                        </span>
+                        <span class="overflow-hidden d-block">
+                            <span>glamour elegance</span>
+                        </span>
+                    </h2>
+                </div>
+                <div class="col-6">
+                    <h2 class="font-weight-light mb-0 fs-0 fs-md-2">
+                        <span class="">
+                            <span>the aesthetic of</span>
+                        </span>
+                        <span class="d-block">
+                            <span>sparrow events</span>
+                        </span>
+                        <span class="overflow-hidden d-block">
+                            <span>is one of</span>
+                        </span>
+                        <span class="overflow-hidden d-block">
+                            <span>glamour elegance</span>
+                        </span>
+                        </h2>
+                    <img class="img-fluid mb-4 rounded img-template" src="../image/exampletemplate2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     {{-- content end --}}
 
     {{-- footer --}}
     <div class="footer">
         <div class="container">
             <div class="col">
-                <p>2019 All Right Reserved by Wedding Time</p>
+                <p>2019 All Right Reserved by Kundangan Yuk</p>
             </div>
         </div>
     </div>

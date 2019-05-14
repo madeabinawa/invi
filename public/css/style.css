@@ -50,6 +50,17 @@
     text-align: center;
 }
 
+.txt-template h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.txt-template h1 span{
+    font-weight: 700;
+}
+
 /* Desktop css layout */
 @media (min-width: 992px) {
     .navbar-brand, .nav-link{
@@ -86,5 +97,8 @@
     }
     .jumbotron .display-4 span{
         font-weight: 700;
+    }
+    .img-template{
+
     }
 }
