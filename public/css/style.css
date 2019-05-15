@@ -1,3 +1,7 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
 /* navbar */
 .navbar{
     position: relative;
@@ -44,8 +48,13 @@
     z-index: 1;
 }
 /* footer */
+.end{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
 .footer p{
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 100px;
     text-align: center;
 }
@@ -60,6 +69,28 @@
 .txt-template h1 span{
     font-weight: 700;
 }
+.img-template{
+    position: relative;
+    top: 0px;
+    color: white;
+
+}
+.img-template span{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+
+
+
+
 
 /* Desktop css layout */
 @media (min-width: 992px) {
@@ -98,7 +129,14 @@
     .jumbotron .display-4 span{
         font-weight: 700;
     }
-    .img-template{
+    .img-template span{
+        font-size: 40px;
+        top: 50%;
+    }
 
+
+
+    .footer p{
+        font-size: 20px;
     }
 }

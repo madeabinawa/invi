@@ -50,52 +50,58 @@
             <div class="row justify-content-center txt-template">
                     <h1>Which templates you love? <span>pick yours.</span></h1>
             </div>
-
             <div class="row">
-                <div class="col-6">
-                    <img class="img-fluid mb-4 rounded img-template" src="../image/exampletemplate1.jpg" alt="">
-                    <h2 class="font-weight-light mb-0 fs-0 fs-md-2">
-                        <span class="">
-                            <span>the aesthetic of</span>
-                        </span>
-                        <span class="d-block">
-                            <span>sparrow events</span>
-                        </span>
-                        <span class="overflow-hidden d-block">
-                            <span>is one of</span>
-                        </span>
-                        <span class="overflow-hidden d-block">
-                            <span>glamour elegance</span>
-                        </span>
-                    </h2>
+                <div class="col-4 img-template">
+                    <img class="img-fluid mb-4 rounded" src="../image/exampletemplate1.jpg" alt="">
+                    <span>Template 1</span>
                 </div>
-                <div class="col-6">
-                    <h2 class="font-weight-light mb-0 fs-0 fs-md-2">
-                        <span class="">
-                            <span>the aesthetic of</span>
-                        </span>
-                        <span class="d-block">
-                            <span>sparrow events</span>
-                        </span>
-                        <span class="overflow-hidden d-block">
-                            <span>is one of</span>
-                        </span>
-                        <span class="overflow-hidden d-block">
-                            <span>glamour elegance</span>
-                        </span>
-                        </h2>
+                <div class="col-4 img-template">
                     <img class="img-fluid mb-4 rounded img-template" src="../image/exampletemplate2.jpg" alt="">
+                    <span>Template 2</span>
+                </div>
+                <div class="col-4 img-template">
+                    <img class="img-fluid mb-4 rounded img-template" src="../image/exampletemplate1.jpg" alt="">
+                    <span>Template 3</span>
                 </div>
             </div>
         </div>
     </section>
+    <section class="features">
+        <div class="container">
+            <div class="row justify-content-center txt-template">
+                <h1>Fitur dan <span>harga.</span></h1>
+            </div>
+            {{-- test --}}
+            <div class="row align-items-center">
+                <div class="col-10 col-lg-6 col-xl-5 mb-6 mb-lg-0 px-0 mx-auto mt-6 mt-lg-0">
+                    <div class="position-relative border border-300 pb">
+                        <div class="py-6 px-5 px-lg-7 px-xl-8">
+                            <p class="text-600 font-italic lead">Think it's too difficult or too expensive? - Think again! Here at Sparrow Weddings, we've delighted hundreds of couples by creating ceremonies full of magical memories that last a lifetime. We're waiting to hear from you!</p>
+                            <h4 class="mb-3 mt-5">You will get:</h4>
+                            <ul class="text-sans-serif style-check pl-0">
+                            <li>Full Wedding Plan</li>
+                            <li>Wedding Week in France</li>
+                            <li>Wedding Proposal Planning</li>
+                            <li>Intimate Ceremony Planning</li>
+                            <li>Personal travel assistant</li>
+                            </ul>
+                            <a class="btn btn-outline-dark pb" href="#">get a quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{-- test end --}}
+        </div>
+    </section>
+
+
     {{-- content end --}}
 
     {{-- footer --}}
-    <div class="footer">
+    <div class="end">
         <div class="container">
             <div class="col">
-                <p>2019 All Right Reserved by Kundangan Yuk</p>
+                <p>2019 All Right Reserved by kundanganyuk</p>
             </div>
         </div>
     </div>
