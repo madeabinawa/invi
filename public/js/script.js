@@ -4,7 +4,7 @@ AOS.init({
 });
 // navbar on scroll
 $(window).scroll(function(){
-    if($(this).scrollTop() > 100){
+    if($(this).scrollTop() > 100 && $(window).width() > 992){
         $('nav').addClass('nav-scrolled');
     }else{
         $('nav').removeClass('nav-scrolled');
@@ -20,10 +20,15 @@ $(window).scroll(function(){
         if ($window.width() < 992) {
             $('nav').addClass('navbar-dark bg-black');
             $('.collapse').addClass('navbar-dark bg-black');
-            $('.navbar-nav').addClass();
-            $('.navbar-toggler').addClass('mr-5');
+            $('nav').removeClass('fixed-top');
+            $('nav').addClass('sticky-top');
+            $('.navbar-nav').addClass('mx-auto');
+            // $('.navbar-nav').css('transform','translateX(-25%)');
+            $('.navbar-nav').removeClass('ml-auto');
+            // $('.navbar-nav').css('transform','translateX(-50%)');
+            // $('.navbar-toggler').css('transform','translateX(-140%)');
             $('.navbar-collapse').addClass('text-center');
-            $('.navbar-collapse').addClass('margin-collapse');
+            // $('.navbar-collapse').css('margin-left','-9%');
         }else{
             $('nav').removeClass('navbar-dark bg-black');
             $('.collapse').removeClass('navbar-dark bg-black');

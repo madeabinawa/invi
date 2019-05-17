@@ -4,8 +4,6 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     {{-- custom fonts --}}
     <link href="https://fonts.googleapis.com/css?family=Gugi|Roboto+Slab" rel="stylesheet">
     {{-- jquery --}}
@@ -22,14 +20,32 @@
   </head>
   <body>
     {{-- navbar --}}
-    {{-- <nav class="navbar navbar-expand-lg navbar navbar-dark fixed-top sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">Kundangan Yuk</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar navbar-light" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto" >
+                    <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link page-scroll" href="#templates">Templates</a>
+                    <a class="nav-item nav-link page-scroll" href="#features">Features & Pricing</a>
+                    <a class="nav-item nav-link page-scroll" href="#home">About</a>
+                    <a class="nav-item btn btn-primary tombol" href="#">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    {{-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#home">Kundangan Yuk</a>
-            <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse navbar navbar-dark" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto" >
                 <a class="nav-item nav-link active page-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link page-scroll" href="#templates">Templates</a>
                 <a class="nav-item nav-link page-scroll" href="#features">Features & Pricing</a>
@@ -39,23 +55,6 @@
             </div>
         </div>
     </nav> --}}
-    <nav class="navbar navbar-expand-lg navbar navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#home">Kundangan Yuk</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse navbar navbar-dark" id="navbarNavAltMarkup">
-                <div class="navbar-nav" style="margin: 0 auto;">
-                <a class="nav-item nav-link active page-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link page-scroll" href="#templates">Templates</a>
-                <a class="nav-item nav-link page-scroll" href="#features">Features & Pricing</a>
-                <a class="nav-item nav-link page-scroll" href="#home">About</a>
-                <a class="nav-item btn btn-primary tombol" href="#">Buy</a>
-                </div>
-            </div>
-        </div>
-    </nav>
     {{-- navbar end--}}
 
     {{-- jumbotron --}}
@@ -95,7 +94,7 @@
             </div>
 
             <div class="row align-items-center">
-                <div class="col-10 col-lg-6 col-xl-5 mb-6 mb-lg-0 px-0 mx-auto mt-6 mt-lg-0">
+                <div class="col-10 col-lg-6 col-xl-5 mb-6 mb-lg-0 px-0 mx-auto mt-6 mt-lg-0" data-aos="fade-right">
                     <div class="position-relative border border-300 p-5">
                         <div class="pb-3">
                             <p class="text-600 font-italic lead text-justify">Think it's too difficult or too expensive? - Think again! Here at Sparrow Weddings, we've delighted hundreds of couples by creating ceremonies full of magical memories that last a lifetime. We're waiting to hear from you!</p>
@@ -112,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col-10 col-lg-6 col-xl-5 mb-6 mb-lg-0 px-0 mx-auto mt-6 mt-lg-0">
-                    <div class="position-relative border border-300 p-5">
+                    <div class="position-relative border border-300 p-5" data-aos="fade-left">
                         <div class="pb-3">
                             <p class="text-600 font-italic lead text-justify">Think it's too difficult or too expensive? - Think again! Here at Sparrow Weddings, we've delighted hundreds of couples by creating ceremonies full of magical memories that last a lifetime. We're waiting to hear from you!</p>
                             <h4 class="mb-3 mt-3">You will get:</h4>
@@ -136,15 +135,15 @@
                     <h1>This is <span>our portofolio.</span></h1>
             </div>
             <div id="carouselExampleControls" class="carousel slide animate-box fadeInUp animated" data-ride="carousel">
-                <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
+                <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active img-item">
-                        <img class="d-block w-100" src="../image/exampletemplate1.jpg" alt="First slide">
+                        <img src="../image/exampletemplate1.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item img-item">
-                        <img class="d-block w-100" src="../image/exampletemplate2.jpg">
+                        <img src="../image/exampletemplate2.jpg">
                     </div>
                     <div class="carousel-item img-item">
-                        <img class="d-block w-100" src="../image/exampletemplate1.jpg">
+                        <img src="../image/exampletemplate1.jpg">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -157,6 +156,31 @@
                 </a>
             </div>
         </div>
+        {{-- <div id="myCarousel" class="carousel slide animate-box" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="../image/exampletemplate2.jpg" alt="Los Angeles" style="width:100%;">
+                  </div>
+                <div class="item">
+                    <img src="../image/exampletemplate1.jpg" alt="New york" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="../image/exampletemplate2.jpggit" alt="New york" style="width:100%;">
+                </div>
+            </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div> --}}
     </section>
 
 
@@ -167,7 +191,7 @@
         <div class="container-fluid bottom-footer pt-2">
           <div class="row">
             <div class="col-12 text-center">
-              <p>Copyrights © 2019 - All rights reserved kundanganyuk</p>
+              <p>Copyrights © 2019 - All rights reserved kundanganyuk <br> powered by Puramedia.id</p>
             </div>
           </div>
         </div>
