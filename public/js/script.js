@@ -1,3 +1,7 @@
+//inisialisasi animatedonscroll
+AOS.init({
+    duration: 1200,
+});
 // navbar on scroll
 $(window).scroll(function(){
     if($(this).scrollTop() > 100){
@@ -16,9 +20,10 @@ $(window).scroll(function(){
         if ($window.width() < 992) {
             $('nav').addClass('navbar-dark bg-black');
             $('.collapse').addClass('navbar-dark bg-black');
-            $('.navbar-nav').addClass('mx-auto');
-            $('.navbar-nav').removeClass('ml-auto');
+            $('.navbar-nav').addClass();
+            $('.navbar-toggler').addClass('mr-5');
             $('.navbar-collapse').addClass('text-center');
+            $('.navbar-collapse').addClass('margin-collapse');
         }else{
             $('nav').removeClass('navbar-dark bg-black');
             $('.collapse').removeClass('navbar-dark bg-black');
@@ -30,16 +35,16 @@ $(window).scroll(function(){
 })(jQuery);
 
 // jquery animate scroll dengan easing
-$('.page-scroll').on('click',function(e){
+// $('.page-scroll').on('click',function(e){
 
-    var tujuan = $(this).attr('href');
-    var eTujuan = $(tujuan);
-    // $('body').scrollTop(100);
-    $('body').animate({
-        scrollTop: eTujuan.offset().top-10
-    });
-    e.preventDefault();
-})
+//     var tujuan = $(this).attr('href');
+//     var eTujuan = $(tujuan);
+//     // $('body').scrollTop(100);
+//     $('body').animate({
+//         scrollTop: eTujuan.offset().top-10
+//     });
+//     e.preventDefault();
+// })
 
 
 

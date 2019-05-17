@@ -11,15 +11,34 @@
     {{-- jquery --}}
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/aos.js"></script>
     {{-- bootstrap css --}}
     {{ HTML::style('css/app.css') }}
     {{-- custom css --}}
     {{HTML::style('css/style.css')}}
+    {{HTML::style('css/aos.css')}}
 
     <title>Kundangan Yuk</title>
   </head>
   <body>
     {{-- navbar --}}
+    {{-- <nav class="navbar navbar-expand-lg navbar navbar-dark fixed-top sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Kundangan Yuk</a>
+            <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar navbar-dark" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link active page-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link page-scroll" href="#templates">Templates</a>
+                <a class="nav-item nav-link page-scroll" href="#features">Features & Pricing</a>
+                <a class="nav-item nav-link page-scroll" href="#home">About</a>
+                <a class="nav-item btn btn-primary tombol" href="#">Buy</a>
+                </div>
+            </div>
+        </div>
+    </nav> --}}
     <nav class="navbar navbar-expand-lg navbar navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#home">Kundangan Yuk</a>
@@ -27,7 +46,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse navbar navbar-dark" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
+                <div class="navbar-nav" style="margin: 0 auto;">
                 <a class="nav-item nav-link active page-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link page-scroll" href="#templates">Templates</a>
                 <a class="nav-item nav-link page-scroll" href="#features">Features & Pricing</a>
@@ -41,8 +60,8 @@
 
     {{-- jumbotron --}}
     <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">We bring you the <span>true experience</span><br>in your <span> special moment</span></h1>
+        <div class="container" data-aos="fade-right">
+                <h1 class="display-4">We bring you the <span>true experience</span><br>in your <span> special moment</span></h1>
         </div>
     </div>
     {{-- jumbotron end--}}
@@ -50,7 +69,7 @@
     {{-- content --}}
     <section class="template" id="templates">
         <div class="container">
-            <div class="row justify-content-center txt-template">
+            <div class="row justify-content-center txt-template" data-aos="zoom-out">
                     <h1>Which templates you love? <span>pick yours.</span></h1>
             </div>
             <div class="row">
@@ -71,7 +90,7 @@
     </section>
     <section class="features" id="features">
         <div class="container">
-            <div class="row justify-content-center txt-template">
+            <div class="row justify-content-center txt-template" data-aos="zoom-out">
                 <h1>Features <span>& pricing.</span></h1>
             </div>
 
@@ -113,32 +132,31 @@
     </section>
     <section class="portofolio" id="portofolio">
         <div class="container">
-            <div class="row justify-content-center txt-template">
+            <div class="row justify-content-center txt-template" data-aos="zoom-out">
                     <h1>This is <span>our portofolio.</span></h1>
             </div>
             <div id="carouselExampleControls" class="carousel slide animate-box fadeInUp animated" data-ride="carousel">
-                    <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
-                        <div class="carousel-item active img-item">
-                            <img class="d-block w-100" src="../image/exampletemplate1.jpg" alt="First slide">
-                        </div>
-                        <div class="carousel-item img-item">
-                            <img class="d-block w-100" src="../image/exampletemplate2.jpg">
-                        </div>
-                        <div class="carousel-item img-item">
-                            <img class="d-block w-100" src="../image/exampletemplate1.jpg">
-                        </div>
+                <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
+                    <div class="carousel-item active img-item">
+                        <img class="d-block w-100" src="../image/exampletemplate1.jpg" alt="First slide">
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="carousel-item img-item">
+                        <img class="d-block w-100" src="../image/exampletemplate2.jpg">
+                    </div>
+                    <div class="carousel-item img-item">
+                        <img class="d-block w-100" src="../image/exampletemplate1.jpg">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
-
     </section>
 
 
