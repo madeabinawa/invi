@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/template1', function () {
     return view('template1');
 });
+
+Route::get('/template2', function () {
+    return view('template2');
+});
+
+Route::get('/iwan-emi', function () {
+    return view('template2');
+});

@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Alice|Zilla+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.min.css">
-
+    <title>Template 1 | Kundangan Yuk</title>
   </head>
   <body>
 
