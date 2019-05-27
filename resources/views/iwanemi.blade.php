@@ -7,10 +7,10 @@
 -->
 <html>
 	<head>
-		<title>Template 2 | Ini Undangan</title>
+		<title>Iwan & Emi | Ini Undangan</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="../css/template2/main.css" />
+        <link rel="stylesheet" href="../css/temp2/main.css" />
         <link rel="stylesheet" href="../css/aos.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 		<noscript><link rel="stylesheet" href="../css/temp2/noscript.css" /></noscript>
@@ -19,7 +19,7 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 				<!-- One -->
-                <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" style="center; height: 100vh;">
+                <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" style="background-image: url(../image/3894.png); background-size: cover; background-repeat: no-repeat; background-position: center; height: 100vh;">
                     <div class="content">
                         <h1>Lorem ipsum dolor.</h1>
                         <p class="major">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque neque eaque provident numquam ea qui, molestias excepturi maiores consectetur nihil quis error laudantium ipsum, quos odio accusamus. Architecto, obcaecati quibusdam!</p>
@@ -30,7 +30,7 @@
                 </section>
 
             <!-- countdown -->
-                <section class="wrapper style1 align-center"
+                <section class="wrapper style1 align-center" style="background-image: url(../image/bamboo.png); background-repeat: no-repeat; background-size: cover; background-position: center;"
                 data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-delay="50"
@@ -140,7 +140,7 @@
                 </section>
                 {{-- Gallery New End --}}
                 {{-- Location --}}
-                <section class="wrapper style1 align-center">
+                <section class="wrapper style1 align-center" style="background-image: url(../image/lantern.png); background-repeat: no-repeat; background-size: cover;">
                     <div class="container">
                         <div class="row">
                             <div style="margin-top: 2%; width: 100%;" data-aos="flip-down">
@@ -176,7 +176,7 @@
                 <!-- Footer -->
                 <footer class="wrapper style1 align-center">
                     <div class="inner">
-                        <p>&copy; <a href="/" style="color: black;"> Organized by iniundangan.com </a></p>
+                        <p>&copy; <a href="/" style="color: white;"> Organized by iniundangan.com </a></p>
                     </div>
                 </footer>
 			</div>

@@ -22,7 +22,10 @@ Route::get('/template1', function () {
 Route::get('/template2', function () {
     return view('template2');
 });
+Route::get('/template3', function () {
+    return view('template3');
+});
 
 Route::get('/iwan-emi', function () {
-    return view('template2');
+    return view('iwanemi');
 });

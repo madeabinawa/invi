@@ -290,8 +290,6 @@
       </div>
     </footer>
 
-
-
     <script src="js/script_temp1.js"></script>
     <script src="js/custom_temp1.js"></script>
 

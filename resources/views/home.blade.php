@@ -59,11 +59,11 @@
                     </div>
                 </div>
                 <div class="col-4 img-template">
-                        <a href="/template2"><img class="img-fluid mb-4 rounded" src="../image/exampletemplate2.jpg" alt=""></a>
+                        <a href="/template2" target="_blank"><img class="img-fluid mb-4 rounded" src="../image/exampletemplate2.jpg" alt=""></a>
                     <span>Template 2</span>
                 </div>
                 <div class="col-4 img-template">
-                        <a href="template3"><img class="img-fluid mb-4 rounded" src="../image/exampletemplate1.jpg" alt=""></a>
+                        <a href="template3" target="_blank"><img class="img-fluid mb-4 rounded" src="../image/exampletemplate1.jpg" alt=""></a>
                     <span>Template 3</span>
                 </div>
             </div>

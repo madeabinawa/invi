@@ -281,8 +281,8 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #de3f50;
-		color: #ffffff;
+		background-color: #ffffff;
+		color: #000000;
 	}
 
 	body, input, select, textarea {
@@ -461,7 +461,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000000;
 	}
 
 	blockquote {
