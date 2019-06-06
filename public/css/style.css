@@ -41,7 +41,7 @@ html,body{
 .jumbotron{
     background-size: cover;
     background-image: url(../image/weds-bg2.jpg);
-    height: 660px;
+    height: 100vh;
     text-align: center;
     position: relative;
 }
@@ -114,7 +114,7 @@ html,body{
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
@@ -160,7 +160,7 @@ html,body{
 .contact ul li a{
     width: 80px;
     height: 80px;
-    background: white;
+    background: #f8fafc;
     text-align: center;
     line-height: 80px;
     font-size: 35px;
@@ -169,7 +169,7 @@ html,body{
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    border: 3px solid white;
+    border: 3px solid #f8fafc;
     z-index: 1;
 }
 .contact ul li a .fa{
@@ -253,8 +253,8 @@ html,body{
         font-size: 28px;
     }
     .jumbotron{
-        height: 700px;
-        margin-top: -80px;
+        /* height: 700px; */
+        /* margin-top: -80px; */
         text-align: left;
     }
     .jumbotron .display-4{

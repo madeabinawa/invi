@@ -1,301 +1,368 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 
-    <link href="https://fonts.googleapis.com/css?family=Alice|Zilla+Slab:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles-merged.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>Template 1 | Kundangan Yuk</title>
-  </head>
-  <body>
+     <title>Template 1 | Ini Undangan</title>
+<!--
 
-    <!-- Fixed navbar -->
-     <!-- navbar-fixed-top -->
-    <nav class="navbar navbar-default probootstrap-navbar">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html" title="uiCookies:Wedding">Jake <em>&amp;</em> Kate</a>
-        </div>
+Eatery Cafe Template
 
-        <div id="navbar-collapse" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#" data-nav-section="home">Home</a></li>
-            <li><a href="#" data-nav-section="groom-bride">Groom &amp; Bride</a></li>
-            <li><a href="#" data-nav-section="when-where">When &amp; Where</a></li>
-            <li><a href="#" data-nav-section="gallery">Gallery</a></li>
-            <li><a href="#" data-nav-section="rsvp">RSVP</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+http://www.templatemo.com/tm-515-eatery
 
-    <section class="flexslider" data-section="home">
-      <div class="container text-intro-wrap">
-        <div class="row">
-          <div class="col-md-12 text-center text-intro probootstrap-animate">
-            <h1>Jake <em>&amp;</em> Kate</h1>
-            <h2>Getting Married on April 20, 2019 &mdash; Brooklyn, NYC</h2>
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="../template1_assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../template1_assets/css/font-awesome.min.css">
+     <link rel="stylesheet" href="../template1_assets/css/animate.css">
+     <link rel="stylesheet" href="../template1_assets/css/owl.carousel.css">
+     <link rel="stylesheet" href="../template1_assets/css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="../template1_assets/css/magnific-popup.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="../template1_assets/css/templatemo-style.css">
+
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
           </div>
-        </div>
-      </div>
-      <ul class="slides">
-        <li style="background-image: url(image/hero_bg_1.jpg)" data></li>
-        <li style="background-image: url(image/hero_bg_2.jpg)"></li>
-        <li style="background-image: url(image/hero_bg_3.jpg)"></li>
-      </ul>
-    </section>
+     </section>
 
-    <section class="probootstrap-section probootstrap-section-colored probootstrap-wedding-countdown">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center probootstrap-animate"><h4>The Wedding Begins In</h4></div>
-          <div class="col-md-12 probootstrap-animate">
-            <div class="date-countdown"></div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="probootstrap-section probootstrap-bg" data-section="groom-bride">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 probootstrap-groom-bride">
-
-            <div class="probootstrap-groom probootstrap-animate">
-              <figure>
-                <img src="image/groom_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
-              </figure>
-              <span class="probootstrap-caption">The Groom</span>
-              <h2 class="text-center">Jake Wilson</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth question ran over her cheek, then she continued her way.</p>
-            </div>
-
-            <div class="probootstrap-divider probootstrap-animate"><span>&amp;</span></div>
-
-            <div class="probootstrap-bride probootstrap-animate">
-              <figure>
-                <img src="image/bride_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
-              </figure>
-              <span class="probootstrap-caption">The Bride</span>
-              <h2 class="text-center">Kate Marie</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put he
-        <!-- Fixed navbar -->
-         <!-- navbar-fixed-top -->
-        <nav class="navbar navbar-default probootstrap-navbar">
+     {{-- <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
           <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html" title="uiCookies:Wedding">Jake <em>&amp;</em> Kate</a>
-            </div>
 
-            <div id="navbar-collapse" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#" data-nav-section="home">Home</a></li>
-                <li><a href="#" data-nav-section="groom-bride">Groom &amp; Br initial into the belt and made herself on the way.</p>
-            </div>
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
 
-          </div>
-        </div>
-      </div>
-    </section>
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">Eatery <span>.</span> Cafe</a>
+               </div>
 
-    <div class="probootstrap-section probootstrap-section-colored" data-section="when-where">
-      <div class="container">
-        <div class="row mb40 text-center">
-          <div class="col-md-12 probootstrap-animate"><h2 class="mt0">When &amp; Where</h2></div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 probootstrap-animate">
-            <p><img src="image/img_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive img-rounded"></p>
-            <h3>Wedding Ceremony</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="#home" class="smoothScroll">Home</a></li>
+                         <li><a href="#about" class="smoothScroll">About</a></li>
+                         <li><a href="#team" class="smoothScroll">Chef</a></li>
+                         <li><a href="#menu" class="smoothScroll">Menu</a></li>
+                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#">Call Now! <i class="fa fa-phone"></i> 010 020 0340</a></li>
+                         <a href="#footer" class="section-btn">Reserve a table</a>
+                    </ul>
+               </div>
 
           </div>
-          <div class="col-md-6 probootstrap-animate">
-            <p><img src="image/img_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive img-rounded"></p>
-            <h3>Wedding Party</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth question ran over her cheek, then she continued her way.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="map"></div>
+     </section> --}}
+     <!-- HOME -->
+     <section id="home" class="slider" data-stellar-background-ratio="0.5">
+          <div class="row">
+                    {{-- <div class="owl-carousel owl-theme"> --}}
+                         <div class="item item-first">
+                              <div class="caption">
+                                   <div class="container">
+                                        <div class="col-md-10 col-sm-12">
+                                             <h3>31 December 2019</h3>
+                                             <h2 style="color: white;margin: 5px 0 0 0;">Happy Wedding</h2>
+                                             <h1 style="margin: -5px 0; ">Groom & Bride</h1>
+                                             <div class="count" data-aos="flip-up" data-aos-offset="200"
+                                            data-aos-delay="70"
+                                            data-aos-duration="1000">
+                                                <div class="countd">
+                                                    <span id="days">00</span>
+                                                    Days
+                                                </div>
+                                                <div class="countd">
+                                                    <span id="hours">00</span>
+                                                    Hours
+                                                </div>
+                                                <div class="countd">
+                                                    <span id="minutes">00</span>
+                                                    Minutes
+                                                </div>
+                                                <div class="countd">
+                                                    <span id="seconds">00</span>
+                                                    Seconds
+                                                </div>
+                                            </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
 
-    <section class="probootstrap-section" data-section="gallery">
-      <div class="container">
-        <div class="row mb40 probootstrap-animate">
-          <div class="col-md-12 text-center"><h2>Gallery</h2></div>
-        </div>
+                         {{--<div class="item item-second">
+                              <div class="caption">
+                                   <div class="container">
+                                        <div class="col-md-8 col-sm-12">
+                                             <h3>Your Perfect Breakfast</h3>
+                                             <h1>The best dinning quality can be here too!</h1>
+                                             <a href="#menu" class="section-btn btn btn-default smoothScroll">Discover menu</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
 
-        <div class="row probootstrap-gutter30">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-6 probootstrap-animate">
-                <a class="probootstrap-image image-popup" href="image/img_3.jpg" style="background-image: url(image/img_3.jpg)">
-                  <div class="probootstrap-image-for-popup"><img src="image/img_3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                </a>
-              </div>
-              <div class="col-md-6 probootstrap-animate">
-                <a class="probootstrap-image image-popup" href="image/img_2.jpg" style="background-image: url(image/img_2.jpg)">
-                  <div class="probootstrap-image-for-popup"><img src="image/img_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                </a>
-              </div>
-            </div>
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-12 probootstrap-animate">
-                <a class="probootstrap-image image-popup" href="image/img_1.jpg" style="background-image: url(image/img_1.jpg)">
-                  <div class="probootstrap-image-for-popup"><img src="image/img_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                </a>
-              </div>
-            </div>
+                         <div class="item item-third">
+                              <div class="caption">
+                                   <div class="container">
+                                        <div class="col-md-8 col-sm-12">
+                                             <h3>New Restaurant in Town</h3>
+                                             <h1>Enjoy our special menus every Sunday and Friday</h1>
+                                             <a href="#contact" class="section-btn btn btn-default smoothScroll">Reservation</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div> --}}
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-6">
-                <div class="row probootstrap-gutter30">
-                  <div class="col-md-12 probootstrap-animate">
-                    <a class="probootstrap-image image-popup" href="image/img_4.jpg" style="background-image: url(image/img_4.jpg)">
-                      <div class="probootstrap-image-for-popup"><img src="image/img_4.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                    </a>
-                  </div>
-                  <div class="col-md-12 probootstrap-animate">
-                    <a class="probootstrap-image image-popup" href="image/img_5.jpg" style="background-image: url(image/img_5.jpg)">
-                      <div class="probootstrap-image-for-popup"><img src="image/img_5.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                    </a>
-                  </div>
+     </section>
+     <!-- ABOUT -->
+     <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container" style="margin-top: -50px; text-align: center;">
+                <div class="row" style="margin-bottom:3%;">
+                        <div class="col-md-2 col-sm-12"></div>
+                        <div class="col-md-3 col-sm-12 text-center">
+                            <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+                                    <img src="../image/groom.jpg" class="img-responsive img-wrap" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12">
+                            <div class="about-info">
+                                    <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+                                        {{-- <h4>Read our story</h4> --}}
+                                        <h2>Groom Name</h2>
+                                    </div>
+                                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                        <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada. Proin scelerisque risus et ipsum semper molestie sed in nisi. Ut rhoncus congue lectus, rhoncus venenatis leo malesuada id.</p>
+                                    </div>
+                            </div>
+                        </div>
+
+                   </div>
+               <div class="row">
+                    <div class="col-md-2 col-sm-12"></div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+                            <img src="../image/bride.jpg" class="img-responsive img-wrap" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <div class="about-info">
+                                <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2>Bride Name</h2>
+                                </div>
+                                <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                    <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada. Proin scelerisque risus et ipsum semper molestie sed in nisi. Ut rhoncus congue lectus, rhoncus venenatis leo malesuada id.</p>
+                                </div>
+                        </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- TEAM -->
+     <section id="team" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                              <h2>Time and Location</h2>
+                              {{-- <h4>They are nice &amp; friendly</h4> --}}
+                         </div>
+                    </div>
+                    {{-- <div class="col-md-3 col-sm-3"></div> --}}
+                    <div class="col-md-6 col-sm-6">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                              <img src="../image/place1.jpg" class="img-responsive" alt="">
+                                   <div class="team-hover">
+                                        <div class="team-item" style="color: white;">
+                                           <span>Place of ceremony</span><br><br>
+                                           <span>Sunday, December 22 th 2019</span><br><br>
+                                           <span>10.00 am - End</span>
+
+                                             {{-- <h4>Duis vel lacus id magna mattis vehicula</h4>
+                                             <ul class="social-icon">
+                                                  <li><a href="#" class="fa fa-linkedin-square"></a></li>
+                                                  <li><a href="#" class="fa fa-envelope-o"></a></li>
+                                             </ul> --}}
+                                        </div>
+                                   </div>
+                         </div>
+                         {{-- <div class="team-info">
+                              <h3>Location 1</h3>
+                         </div> --}}
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                              <img src="../image/place2.jpg" class="img-responsive" alt="">
+                                   <div class="team-hover">
+                                        <div class="team-item" style="color: white;">
+                                           <span>Place of ceremony</span><br><br>
+                                           <span>Sunday, December 22 th 2019</span><br><br>
+                                           <span>10.00 am - End</span>
+                                        </div>
+                                   </div>
+                         </div>
+                         {{-- <div class="team-info">
+                              <h3>Location 1</h3>
+                         </div> --}}
+                    </div>
+                    {{-- <div class="col-md-3 col-sm-3"></div> --}}
+               </div><br>
+          </div>
+          <div class="col-md-12 col-sm-12">
+                <div class="section-title wow fadeInUp" data-wow-delay="0.1s" style="padding-top: 65px;">
+                    <h2>Direction to Location</h2>
                 </div>
-              </div>
-              <div class="col-md-6 probootstrap-animate">
-                <a class="probootstrap-image  height-2x image-popup" href="image/img_6.jpg" style="background-image: url(image/img_6.jpg)">
-                  <div class="probootstrap-image-for-popup"><img src="image/img_6.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                </a>
-              </div>
             </div>
-          </div>
-        </div>
-        <!-- END row -->
-
-        <div class="row probootstrap-gutter30">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-6">
-                <div class="row probootstrap-gutter30">
-                  <div class="col-md-12 probootstrap-animate">
-                    <a class="probootstrap-image image-popup" href="image/img_1.jpg" style="background-image: url(image/img_1.jpg)">
-                      <div class="probootstrap-image-for-popup"><img src="image/img_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                    </a>
-                  </div>
-                  <div class="col-md-12 probootstrap-animate">
-                    <a class="probootstrap-image image-popup" href="image/img_2.jpg" style="background-image: url(image/img_2.jpg)">
-                      <div class="probootstrap-image-for-popup"><img src="image/img_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 probootstrap-animate">
-                <a class="probootstrap-image  height-2x image-popup" href="image/img_3.jpg" style="background-image: url(image/img_3.jpg)">
-                  <div class="probootstrap-image-for-popup"><img src="image/img_3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                </a>
-              </div>
+            <div id="google-map" class="wow fadeInUp">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" allowfullscreen></iframe>
             </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-6 probootstrap-animate">
-                <a class="probootstrap-image image-popup" href="image/img_4.jpg" style="background-image: url(image/img_4.jpg)">
-                  <div class="probootstrap-image-for-popup"><img src="image/img_4.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                </a>
-              </div>
-              <div class="col-md-6 probootstrap-animate">
-                <a class="probootstrap-image image-popup" href="img/img_5.jpg" style="background-image: url(image/img_5.jpg)">
-                  <div class="probootstrap-image-for-popup"><img src="image/img_5.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                </a>
-              </div>
-            </div>
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-12 probootstrap-animate">
-                <a class="probootstrap-image image-popup" href="image/img_6.jpg" style="background-image: url(image/img_6.jpg)">
-                  <div class="probootstrap-image-for-popup"><img src="image/img_6.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- END row -->
-      </div>
-    </section>
+     </section>
 
-    <section class="probootstrap-section probootstrap-border-top" data-section="rsvp">
-      <div class="container">
-        <div class="row mb40">
-          <div class="col-md-12 text-center">
-            <h2 class="mt0 mb10 probootstrap-animate">Will you attend?</h2>
-            <p>Please sign your RSVP</p>
+
+     <!-- MENU-->
+     <section id="menu" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                              <h2>Photo Gallery</h2>
+                         </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="../template1_assets/images/menu-image1.jpg" class="image-popup">
+                                   <img src="../template1_assets/images/menu-image1.jpg" class="img-responsive" alt="">
+                                   {{-- <div class="menu-info">
+                                        <div class="menu-item">
+                                             <h3>American Breakfast</h3>
+                                             <p>Tomato / Eggs / Sausage</p>
+                                        </div>
+                                        <div class="menu-price">
+                                             <span>$25</span>
+                                        </div>
+                                   </div> --}}
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="../template1_assets/images/menu-image2.jpg" class="image-popup" title="">
+                                   <img src="../template1_assets/images/menu-image2.jpg" class="img-responsive" alt="">
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="../template1_assets/images/menu-image3.jpg" class="image-popup" title>
+                                   <img src="../template1_assets/images/menu-image3.jpg" class="img-responsive" alt="">
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="../template1_assets/images/menu-image4.jpg" class="image-popup" title>
+                                   <img src="../template1_assets/images/menu-image4.jpg" class="img-responsive" alt="">
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="../template1_assets/images/menu-image5.jpg" class="image-popup" title>
+                                   <img src="../template1_assets/images/menu-image5.jpg" class="img-responsive" alt="">
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="../template1_assets/images/menu-image6.jpg" class="image-popup" title>
+                                   <img src="../template1_assets/images/menu-image6.jpg" class="img-responsive" alt="">
+                              </a>
+                         </div>
+                    </div>
+
+
+               </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="probootstrap-card probootstrap-animate">
-              <form class="probootstrap-form">
-                <div class="form-group">
-                  <label for="name">Your Name</label>
-                  <input type="text" class="form-control" id="name">
-                </div>
-                <div class="form-group">
-                  <label for="email">Your Email</label>
-                  <input type="text" class="form-control" id="email">
-                </div>
-                <div class="form-group">
-                  <p>Will you attend?</p>
-                  <label for="yes"><input type="checkbox" id="yes"> Yes, I will be there</label> <br>
-                  <label for="no"><input type="checkbox" id="no"> Sorry, I can't come</label> <br>
-                </div>
-                <div class="form-group">
-                  <label for="note">Note</label>
-                  <textarea name="" id="note" cols="20" rows="5" class="form-control"></textarea>
-                </div>
-                <div class="form-group">
-                  <input type="submit" class="btn btn-primary btn-lg" value="Send RSVP">
-                </div>
-              </form>
-            </div>
+     </section>
+     <!-- CONTACT -->
+     <!-- FOOTER -->
+     <footer id="footer" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s">
+                            <p style="text-align: center; color: black;">Copyright &copy; 2018 <a style="color: black;" rel="nofollow" href="http://templatemo.com" target="_parent">TemplateMo</a><br>Organized by <a href="/" style="font-weight: bolder; color: black;">iniundangan.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+               </div>
           </div>
-        </div>
-      </div>
-    </section>
+     </footer>
 
-    <footer class="probootstrap-footer">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-12">
-            &copy; 2017 <a href="https://uicookies.com/">uiCookies:Wedding</a>. All Rights Reserved. Designed &amp; Developed by <a href="https://uicookies.com">uicookies.com</a> <br> Demo Images by <a href="https://unsplash.com">Unsplash</a>
-          </div>
-        </div>
-      </div>
-    </footer>
 
-    <script src="js/script_temp1.js"></script>
-    <script src="js/custom_temp1.js"></script>
+     <!-- SCRIPTS -->
+     <script src="template1_assets/js/jquery.js"></script>
+     <script src="template1_assets/js/bootstrap.min.js"></script>
+     <script src="template1_assets/js/jquery.stellar.min.js"></script>
+     <script src="template1_assets/js/wow.min.js"></script>
+     <script src="template1_assets/js/owl.carousel.min.js"></script>
+     <script src="template1_assets/js/jquery.magnific-popup.min.js"></script>
+     <script src="template1_assets/js/smoothscroll.js"></script>
+     <script src="template1_assets/js/custom.js"></script>
+     <script>
+         var count = new Date("June 2,2019 00:00:00").getTime();
+            var x = setInterval(function(){
+                var now = new Date().getTime();
+                var d = count - now;
+                var days = Math.floor(d/(1000*60*60*24));
+                var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
+                var minutes = Math.floor((d%(1000*60*60))/(1000*60));
+                var seconds = Math.floor((d%(1000*60))/1000);
 
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAykPBA16vN6fVgNNz_Yhw0MXKbgg3fm74&sensor=false"></script>
-    <script src="js/google-map.js"></script>
+                // document.getElementById("days").innerHTML = days;
+                // document.getElementById("hours").innerHTML = hours;
+                // document.getElementById("minutes").innerHTML = minutes;
+                // document.getElementById("seconds").innerHTML = seconds;
 
-  </body>
+                if(d<=0){
+                    clearInterval(x);
+                }
+            },1000);
+     </script>
+
+</body>
 </html>

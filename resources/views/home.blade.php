@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     {{-- custom fonts --}}
     <link href="https://fonts.googleapis.com/css?family=Gugi|Roboto+Slab" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     {{-- bootstrap css --}}
     {{ HTML::style('css/app.css') }}
     {{-- custom css --}}
@@ -29,8 +29,8 @@
                     <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link page-scroll" href="#templates">Templates</a>
                     <a class="nav-item nav-link page-scroll" href="#features">Features & Pricing</a>
-                    <a class="nav-item nav-link page-scroll" href="#contact">Contact</a>
-                    <a class="nav-item btn btn-primary tombol" href="#">Buy</a>
+                    {{-- <a class="nav-item nav-link page-scroll" href="#contact">Contact</a> --}}
+                    <a class="nav-item btn btn-primary tombol" href="#contact">Buy</a>
                     </div>
                 </div>
             </div>
@@ -53,17 +53,17 @@
             </div>
             <div class="row">
                 <div class="col-4 img-template">
-                    <a href="/template1" target="_blank"><img class="img-fluid mb-4 rounded" src="../image/exampletemplate1.jpg" alt=""></a>
+                    <a href="/template1" target="_blank"><img class="img-fluid mb-4 rounded" src="../image/template1.png" alt=""></a>
                     <div class="details">
                         <span>Template 1</span>
                     </div>
                 </div>
                 <div class="col-4 img-template">
-                        <a href="/template2" target="_blank"><img class="img-fluid mb-4 rounded" src="../image/exampletemplate2.jpg" alt=""></a>
+                        <a href="/template2" target="_blank"><img class="img-fluid mb-4 rounded" src="../image/template2.png" alt=""></a>
                     <span>Template 2</span>
                 </div>
                 <div class="col-4 img-template">
-                        <a href="template3" target="_blank"><img class="img-fluid mb-4 rounded" src="../image/exampletemplate1.jpg" alt=""></a>
+                        <a href="template3" target="_blank"><img class="img-fluid mb-4 rounded" src="../image/template3.png" alt=""></a>
                     <span>Template 3</span>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                 <h1>Features <span>& pricing.</span></h1>
             </div>
             <div class="row align-items-center">
-                <div class="col-10 col-lg-6 col-xl-5 mb-6 mb-lg-0 px-0 mx-auto mt-6 mt-lg-0" data-aos="fade-right">
+                {{-- <div class="col-10 col-lg-6 col-xl-5 mb-6 mb-lg-0 px-0 mx-auto mt-6 mt-lg-0" data-aos="fade-right">
                     <div class="position-relative border border-300 p-5">
                         <div class="pb-3">
                             <p class="text-600 font-italic lead text-justify">Think it's too difficult or too expensive? - Think again! Here at Sparrow Weddings, we've delighted hundreds of couples by creating ceremonies full of magical memories that last a lifetime. We're waiting to hear from you!</p>
@@ -90,11 +90,11 @@
                         </div>
                         <a class="btn btn-outline-dark btn-grab" style="" href="#">GET IT NOW</a>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-10 col-lg-6 col-xl-5 mb-6 mb-lg-0 px-0 mx-auto mt-6 mt-lg-0">
                     <div class="position-relative border border-300 p-5" data-aos="fade-left">
                         <div class="pb-3">
-                            <p class="text-600 font-italic lead text-justify">Think it's too difficult or too expensive? - Think again! Here at Sparrow Weddings, we've delighted hundreds of couples by creating ceremonies full of magical memories that last a lifetime. We're waiting to hear from you!</p>
+                            <p class="text-600 font-italic lead text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, consequuntur?</p>
                             <h4 class="mb-3 mt-3">You will get:</h4>
                             <ul class="text-sans-serif style-check pl-4">
                             <li>Full Wedding Plan</li>
@@ -144,9 +144,9 @@
                     <h1>Contact <span>us.</span></h1>
             </div>
             <ul>
-                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                <li><a href="https://www.instagram.com/ini.undangan/"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                <li data-aos="flip-up" data-aos-delay="50"><a href="https://api.whatsapp.com/send?phone=+62########&text=Halo%20Ini%20Undangan,%20kami%20ingin%20pesan%20undangan%20digital." target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li data-aos="flip-up" data-aos-delay="50"><a href="https://www.instagram.com/ini.undangan/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li data-aos="flip-up" data-aos-delay="50"><a href="#"><i class="fa fa-envelope"></i></a></li>
             </ul>
         </div>
     </section>
@@ -157,7 +157,7 @@
         <div class="container-fluid bottom-footer pt-2">
           <div class="row">
             <div class="col-12 text-center">
-              <p>Copyrights © 2019 - All rights reserved iniundangan.com <br> powered by puramedia.id</p>
+              <p>Copyrights © 2019 - All rights reserved <a href="#" style="text-decoration: none;color: white; font-weight: bold;"> iniundangan.com</a> <br> powered by puramedia.id</p>
             </div>
           </div>
         </div>

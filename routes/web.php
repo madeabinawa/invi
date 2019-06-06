@@ -26,6 +26,7 @@ Route::get('/template3', function () {
     return view('template3');
 });
 
+// Customer route below
 Route::get('/iwan-emi', function () {
     return view('iwanemi');
 });
